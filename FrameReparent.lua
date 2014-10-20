@@ -86,4 +86,3 @@ function FluidFrames.GetAnchoredTo(frameSet, first, ...)
 		FluidFrames.GetAnchoredTo(frameSet, ...)
 	end
 end
-
