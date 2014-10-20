@@ -5,7 +5,7 @@
 ## RequiredDeps: Portfolio
 ## OptionalDeps:
 ## SavedVariablesPerCharacter: FluidFramesModifiedFrames, FluidFrames_SavedVars
-## Version: Version: 2.4i-60000
+## Version: Version: 2.4h-60000
 ## X-Category: Frames
 ## X-Revision: $Rev: 5127 $
 ## X-Date: $Date: 2007-11-13 18:34:54 -0600 (Tue, 13 Nov 2007) $
