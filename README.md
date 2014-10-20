@@ -1,3 +1,5 @@
+This is a development repository for FluidFrames on WoWInterface.
+
 FluidFrames
 
 Move, hide, scale, and resize frames with independent x&y axes.
