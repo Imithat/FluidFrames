@@ -52,6 +52,52 @@ A) Temporarily unhide the MainMenuBar, highlight it and drag it up off the botto
 
 Change Log:
 
+2.4h-60000
+- .toc update
+
+2.4g-50300
+-----------
+- .toc update, compatible with WoW 5.3 "Escalation"
+
+2.4g-50200
+-----------
+- prevent taint to mail frame.
+- .toc update, compatible with WoW 5.2.0
+
+2.4f-50001
+-----------
+- prevent taint from RaidParentFrame.
+- Fix ReforgingFrame so it's draggable from the top portion again.
+
+2.4e-50001
+-----------
+- prevent taint from PetJournalParent
+
+2.4d-40300
+-----------
+- MoP Beta compatibility (build 15799 tested)
+
+2.4c-40300
+-----------
+- fix initialization for those players whose addon variables finish loading AFTER the player has entered the world.
+for the technically inclined in wow 3.x and later VARIABLES_LOADED is not guaranteed to fire before PLAYER_ENTERING_WORLD on a 'cold login'
+
+2.4b-40300
+-----------
+- attempt to fix the startup error with TimeManager reported by Kharthus
+(still can't reproduce it myself)
+
+2.4a-40300 (based on FluidFrames 2.4)
+-----------
+- taint prevention
+- add TimeManager to options for dragging (default off, go into options to enable)
+- fix PVPFrame dragging
+- Update frame lists 
+(we can no longer disable mouse on modelframes Blizzard 
+has mouse scripts running for zoom / rotate etc on them now)
+- set a couple more hooks for immobilized frames
+- toc update, compatible with Hour of Twilight (4.3)
+
 v2.3
 - Added out of combat delays to re-hide and re-position secure frames that were moved in combat.
 - Added dependent sibling frame detection to scale/resize/hide frames that had the same parent and whose position is exclusively dependent on the frame being scaled/resized/hidden or one of its other dependent sibling frames.
