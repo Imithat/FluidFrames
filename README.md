@@ -52,43 +52,35 @@ A) Temporarily unhide the MainMenuBar, highlight it and drag it up off the botto
 
 Change Log:
 
-2.4h-60000
-- .toc update
+v2.4h-60000
+- toc update
 
-2.4g-50300
------------
+v2.4g-50300
 - .toc update, compatible with WoW 5.3 "Escalation"
 
-2.4g-50200
------------
+v2.4g-50200
 - prevent taint to mail frame.
 - .toc update, compatible with WoW 5.2.0
 
-2.4f-50001
------------
+v2.4f-50001
 - prevent taint from RaidParentFrame.
 - Fix ReforgingFrame so it's draggable from the top portion again.
 
-2.4e-50001
------------
+v2.4e-50001
 - prevent taint from PetJournalParent
 
-2.4d-40300
------------
+v2.4d-40300
 - MoP Beta compatibility (build 15799 tested)
 
-2.4c-40300
------------
+v2.4c-40300
 - fix initialization for those players whose addon variables finish loading AFTER the player has entered the world.
 for the technically inclined in wow 3.x and later VARIABLES_LOADED is not guaranteed to fire before PLAYER_ENTERING_WORLD on a 'cold login'
 
-2.4b-40300
------------
+v2.4b-40300
 - attempt to fix the startup error with TimeManager reported by Kharthus
 (still can't reproduce it myself)
 
-2.4a-40300 (based on FluidFrames 2.4)
------------
+v2.4a-40300 (based on FluidFrames 2.4)
 - taint prevention
 - add TimeManager to options for dragging (default off, go into options to enable)
 - fix PVPFrame dragging
